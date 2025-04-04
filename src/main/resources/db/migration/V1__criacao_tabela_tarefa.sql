@@ -1,0 +1,6 @@
+CREATE TABLE tarefas (
+  id SERIAL PRIMARY KEY,
+  titulo VARCHAR (255) NOT NULL,
+  descricao VARCHAR (255) NOT NULL,
+  completa BOOLEAN NOT NULL
+);
